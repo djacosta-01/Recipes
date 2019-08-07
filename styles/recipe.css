@@ -12,11 +12,8 @@ p#message{
   text-align: center;
 }
 p#reset span:hover{
-  background-color: black;
   text-decoration: none;
-  
-
-
+  color: white;
 }
 section{
   margin: 20px;
