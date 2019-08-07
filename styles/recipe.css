@@ -11,6 +11,13 @@ body{
 p#message{
   text-align: center;
 }
+p#reset span:hover{
+  background-color: black;
+  text-decoration: none;
+  
+
+
+}
 section{
   margin: 20px;
   padding: 10px;

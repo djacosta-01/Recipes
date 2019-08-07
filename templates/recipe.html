@@ -6,7 +6,7 @@
     <title>Apple Recipes</title>
   </head>
   <body>
-      <p id = "message">Here are your recipes</p>
+      <p id = "message">Here are your recipes:</p>
 
         {% for result in results.results %}
        <section class="result">
@@ -15,6 +15,6 @@
          <div class="ingredients">{{ result.ingredients }}</div>
        </section>
      {% endfor %}
-      <p><a href = "/">Search Again</a></p>
+      <p id = "reset"><a href = "/"><span>Search Again</span></a></p>
   </body>
 </html>
