@@ -5,8 +5,6 @@ body{
   font-family: Rockwell;
   font-weight: 400;
   text-shadow: 2px 2px 2px white;
-
-
 }
 p#message{
   text-align: center;
@@ -15,6 +13,7 @@ p#reset span:hover{
   text-decoration: none;
   color: white;
 }
+
 section{
   margin: 20px;
   padding: 10px;

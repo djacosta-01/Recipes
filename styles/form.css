@@ -1,7 +1,28 @@
+body{
+  background-color: turquoise;
+}
+h1{
+  text-align: center;
+  font-family: Rockwell;
+  text-shadow: 2px 2px 2px white;
+  margin-bottom: 0px;
+  font-size: 50px;
+  border: solid;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: yellow;
+}
 p#initial{
+  text-shadow: 2px 2px 2px white;
   font-family: Rockwell;
   text-align: center;
+  font-size:25px;
+  margin-bottom: 20px;
 }
-p#form{
+p#input{
   text-align: center;
+}
+p#submit{
+  text-align:center;
+  font-family: Rockwell;
 }

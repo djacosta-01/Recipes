@@ -12,7 +12,6 @@ the_jinja_env = jinja2.Environment(
 
 class SearchFormHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('This is where the user will enter the pic and text for their meme')
         info = the_jinja_env.get_template('templates/form.html')
         self.response.write(info.render())
 
@@ -27,7 +26,7 @@ class RecipeDisplayHandler(webapp2.RequestHandler):
         self.response.write(welcome_template.render({
          "results": results
         }))
-        
+
 app = webapp2.WSGIApplication([
     ('/', SearchFormHandler),
     ('/recipe', RecipeDisplayHandler)
