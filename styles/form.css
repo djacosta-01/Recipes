@@ -1,5 +1,9 @@
 body{
-  background-color: turquoise;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+height: 100vh;
 }
 section{
   display: flex;
@@ -7,6 +11,7 @@ section{
   justify-content: center;
 }
 #chef{
+  margin: auto;
   margin-top: 20px;
   margin-bottom: -10px;
   height:25vmin;
