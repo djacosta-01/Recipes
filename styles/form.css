@@ -7,9 +7,28 @@ section{
   justify-content: center;
 }
 #chef{
+  margin-top: 20px;
   margin-bottom: -10px;
   height:25vmin;
   width:25vmin;
+}
+.button{
+  font-size:25px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: yellow;
+  color: black;
+  text-shadow: 2px 2px 2px white;
+}
+.button:hover{
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  background-color: magenta;
+}
+.box{
+  height: 50px;
+  width: 300px;
+  font-size: 30px;
 }
 h1{
   text-align: center;

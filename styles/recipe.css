@@ -10,10 +10,13 @@ p#message{
   text-align: center;
 }
 p#reset span:hover{
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
+  padding: 10px;
 }
-
+p#reset{
+  text-decoration: none;
+}
 section{
   margin: 20px;
   padding: 10px;
